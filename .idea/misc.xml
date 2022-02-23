@@ -3,13 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/drawable/cancel_butt.xml" value="0.248" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/drawable/cards.xml" value="0.3425" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/drawable/custom_progressbar.xml" value="0.248" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/drawable/factory.xml" value="0.3875" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/drawable/market.xml" value="0.2845" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/drawable/search_butt.xml" value="0.248" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/drawable/search_cave.xml" value="0.3055" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/layout/activity_cards.xml" value="0.3875" />
-        <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/layout/activity_factory.xml" value="0.3875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/layout/activity_factory.xml" value="0.5" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/layout/activity_main.xml" value="0.67" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/layout/activity_market.xml" value="0.3875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/layout/cave_item.xml" value="0.75" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/layout/mine_item.xml" value="0.3875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/SubFactory/app/src/main/res/layout/search_item.xml" value="1.1" />
       </map>
     </option>
   </component>

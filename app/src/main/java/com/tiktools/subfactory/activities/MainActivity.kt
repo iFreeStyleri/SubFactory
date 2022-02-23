@@ -9,20 +9,24 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatDelegate
 import com.tiktools.subfactory.R
 import com.tiktools.subfactory.databinding.ActivityMainBinding
+import com.tiktools.subfactory.viewmodels.MainViewModel
 import kotlinx.coroutines.*
 import java.lang.Exception
 import kotlin.concurrent.thread
 
 class MainActivity : AppCompatActivity() {
+    private val viewModel : MainViewModel by viewModels()
     private lateinit var viewBinding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         viewBinding = ActivityMainBinding.inflate(layoutInflater)
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(viewBinding.root)
+        viewModel.init(this)
     }
 
     fun onClickButton(view : View){
